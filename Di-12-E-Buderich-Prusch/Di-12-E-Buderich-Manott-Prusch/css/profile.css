@@ -1,0 +1,18 @@
+/* Profile */
+
+.profile_picture{
+    width: 25%;
+    height: auto;
+    border-radius: 100%;
+}
+
+.formular_outergrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+}
+
+.formular_innergrid{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}

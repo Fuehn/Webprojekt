@@ -1,0 +1,157 @@
+/* Body */
+body{
+    padding-bottom: 30px;
+    padding-top: 30px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/* Entry */
+.entryContent{
+    margin-top: 60px;
+}
+
+.content-grid{
+    display: grid;
+    grid-template-columns: 25% 1fr;
+    justify-content: start;
+}
+
+.votes{
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+}
+
+/* Wie bewegt man images ohne float? :(*/
+.votes img{
+    height: 25px;
+    width: 25px;
+    float: right;
+}
+
+.main{
+    width: 70%;
+}
+
+.main img{
+    box-shadow: 2px 2px 2px #aab0b5;
+    max-width: 100%;
+    height: auto;
+}
+
+.comment{
+    margin-left: 0%;
+    margin-right: 0%;
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #cccccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+}
+
+/* NewEntry */
+/* .new_entry_link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    font-size: 100px;
+    color: #FFFFFF;
+    text-decoration: none;
+    background-color: #000000;
+}
+
+.new_entry_container {
+    margin-bottom: 10px;
+    margin-right: 12px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    z-index: 9999;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.8);
+} */
+
+/* Formulare */
+
+.content{
+    display: flexbox;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+form{
+    align-self: center;
+}
+
+.formular_submit{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 10px; 
+}
+
+/* Elemente */
+h1{
+    font-size: 30pt;
+}
+
+label{
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+textarea{
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid rgba(119, 119, 119, 0.8);
+    border-radius: 3px;
+    outline: none;
+}
+
+input[type=text],
+input[type=password],
+input[type=email]{
+    width: 100%;
+    border: 1px solid rgba(119, 119, 119, 0.8);
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* border-radius: 3px; */
+}
+
+select{
+    border: 0px solid #ffffff;
+    padding: 18px 18px;
+    margin: 20px 0px 20px 0px;
+}
+
+.button,
+button {
+    background-color: #000000;
+    color: #ffffff;
+    border: 0px solid #0B0A0A;
+    padding: 18px 18px;
+    margin: 20px 0px 20px 0px;
+}
+
+hr{
+    border: none;
+    border-top: 1px dashed #aab0b5;
+    color: #ffffff;
+    background-color: #ffffff;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    height: 1px;
+    width: 100%;
+}

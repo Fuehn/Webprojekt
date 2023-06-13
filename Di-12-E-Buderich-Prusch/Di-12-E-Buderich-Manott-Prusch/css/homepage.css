@@ -1,0 +1,140 @@
+/* Startseite */
+.content-row{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 10px;
+    justify-content: space-around;
+}
+
+.content-column{
+    flex: 30%;
+    max-width: 30%;
+    padding: 0 4px;
+}
+
+@media (max-width: 900px) {
+    .content-column {
+      flex: 45%;
+      max-width: 45%;
+    }
+}
+
+@media (max-width: 500px) {
+    .content-column {
+      flex: 100%;
+      max-width: 100%;
+    }
+}
+
+.grid_element {
+    margin-top: 40px;
+    background-color: #FFF3E2;
+    height: fit-content;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 2px 2px 2px #aab0b5;
+    text-align: left;
+}
+
+.grid_element a{
+    padding: 0px;
+}
+
+.grid_element:hover{
+    background-color: #FA9884;
+}
+
+.grid_element img {
+    max-width: 100%;
+    height: auto;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+
+.titel{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.titel a{
+    text-decoration: none;
+    color: #0B0A0A;
+    font-size: 15px;
+    display: block;
+    margin-top: 1.33em;
+    margin-bottom: 1.33em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    padding-top: 5px;
+}
+
+.titel p{
+    color: #0B0A0A;
+    font-size: 12px;
+}
+
+.metadata{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: start;
+}
+
+.metadata-element{
+    max-width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.iconmetadata-element p{
+    text-align: left;
+}
+
+
+.metadata-element img{
+    margin-left: 10px;
+    height: 15px;
+    width: 15px;
+    display: inline-block;
+}
+
+.add-container{
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+}
+
+.add-container img{
+    height: 120px;
+    width: 120px;
+    filter: drop-shadow(0px 3px 3px rgba(0, 0, 0, 0.4));
+}
+
+@media (max-width: 900px) {
+    .add-container img{
+        height: 100px;
+        width: 100px;
+    }
+
+    .add-container{
+        right: 0px;
+    }
+}
+
+@media (max-width: 500px) {
+    .add-container img{
+        height: 80px;
+        width: 80px;
+    }
+
+    .add-container{
+        right: 0px;
+    }
+}

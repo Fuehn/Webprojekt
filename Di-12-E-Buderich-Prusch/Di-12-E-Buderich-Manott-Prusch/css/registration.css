@@ -1,0 +1,12 @@
+/* Registration */
+
+.formular_outergrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+}
+
+.formular_innergrid{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
